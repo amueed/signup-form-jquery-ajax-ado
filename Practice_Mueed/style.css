@@ -1,0 +1,16 @@
+﻿body {
+}
+
+
+.error {
+    outline: 1px solid red;
+
+}
+
+.normal {
+    outline: 1px solid #FFFFFF;
+}
+
+.errorBox {
+    color: red;
+}
