@@ -72,7 +72,7 @@ function Insert() {
             alert(response.d);
         },
 
-        failure: function () {
+        error: function () {
             alert("Fail");
         }
     });
@@ -100,7 +100,7 @@ function checkUser() {
             }
         },
 
-        failure: function (response) {
+        error: function (response) {
             return (response.d);
         }
     });

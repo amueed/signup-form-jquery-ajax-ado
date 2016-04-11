@@ -23,7 +23,6 @@ public partial class SignUp : System.Web.UI.Page
     }
 
     [WebMethod]
-    [ScriptMethod]
     public static string InsertData(string Fname, string Lname, string Gender, string Address, string Email, string Username, string Password)
     {
         string constr = ConfigurationManager.ConnectionStrings["con"].ToString();
@@ -51,7 +50,6 @@ public partial class SignUp : System.Web.UI.Page
     }
 
     [WebMethod]
-    [ScriptMethod]
     public static bool CheckUsername(string Username)
     {
         string constr = ConfigurationManager.ConnectionStrings["con"].ToString();
